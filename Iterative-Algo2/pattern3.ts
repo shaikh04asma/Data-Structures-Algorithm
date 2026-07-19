@@ -7,9 +7,9 @@ function pattern3(n: number): void {
     let spacesCount: number = n - i;  //5-5
     // printing star and space
     let s: string = "";  // nothing
-    for (let j = 1; j <= starsCount; j++) s += " "; //1 < 0 condition false
-    for (let j = 1; j <= spacesCount; j++) s += "*";  //1 < 5  condition true
-    console.log(s); // five stars
+    for (let j = 1; j <= spacesCount ; j++) s += " "; //1 < 0 condition false
+    for (let j = 1; j <= starsCount; j++) s += "*";  //1 < 5  condition true
+    console.log(s); // five starg
   }
 }
 pattern3(5);
