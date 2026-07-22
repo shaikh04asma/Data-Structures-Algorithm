@@ -1,5 +1,5 @@
 function pattern4_1(n: number): void {
-  let starCount: number = 1; //first line will start from 1
+  let starCount: number = 1; //first line will start from 1 and 3 spaces
   let spaceCount: number = Math.floor(n / 2); //7/2 = 3.5 so 3 spaces
   for (let i = 1; i <= n; i++) {
     let s: string = "";
@@ -8,7 +8,7 @@ function pattern4_1(n: number): void {
     console.log(s);
     // condition check for next line
     if (i < n / 2) {
-      //first half add 2 in star, subract 1 in space if your not at line of half daimond means 3.5 = 4
+      //first half add 2 star, subract 1 space if your not at line of half means 3.5 = 4
       starCount += 2;
       spaceCount -= 1;
     } else {
