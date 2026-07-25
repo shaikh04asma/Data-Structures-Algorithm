@@ -1,6 +1,6 @@
 "use strict";
 function pattern4_1(n) {
-    let starCount = 1; //first line will start from 1
+    let starCount = 1; //first line will start from 1 and 3 spaces
     let spaceCount = Math.floor(n / 2); //7/2 = 3.5 so 3 spaces
     for (let i = 1; i <= n; i++) {
         let s = "";
@@ -10,11 +10,13 @@ function pattern4_1(n) {
             s += "*";
         console.log(s);
         // condition check for next line
-        if (i < n / 2) { //first half add 2 in star, subract 1 in space if your not at line of half daimond means 3.5 = 4 
+        if (i < n / 2) {
+            //first half add 2 star, subract 1 space if your not at line of half means 3.5 = 4
             starCount += 2;
             spaceCount -= 1;
         }
-        else { // in mid of daimond subract 2 in star add 1 in space
+        else {
+            // in mid of daimond subract 2 in star add 1 in space
             starCount -= 2;
             spaceCount += 1;
         }
