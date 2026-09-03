@@ -10,7 +10,7 @@ function pattern4_1(n) {
             s += "*";
         console.log(s);
         // condition check for next line
-        if (i < n / 2) {
+        if (i < n / 2) { //3.5
             //first half add 2 star, subract 1 space if your not at line of half means 3.5 = 4
             starCount += 2;
             spaceCount -= 1;
