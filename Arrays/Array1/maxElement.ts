@@ -1,4 +1,5 @@
 function maxEle(arr: number[]) {
+  
   let max: number = -Infinity;
   let idx: number = -1;
   for (let i = 0; i < arr.length; i++) {

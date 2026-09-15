@@ -9,7 +9,7 @@ function maxEle(arr: number[]): number {
       idx = i;
     }
   }
-  console.log(max, idx);
+  // console.log(max, idx);
   return max;
 }
 maxEle([5, 2, 4, 1, 3, 2]);
