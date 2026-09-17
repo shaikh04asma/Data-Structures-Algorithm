@@ -18,6 +18,6 @@ function ceilSearch(arr: number[], tar: number): number {
   return ceil;
 }
 let arr = [10, 20, 30, 40, 50, 60, 70, 123, 245, 378, 500];
-let tar = 500;
+let tar = 35;
 let idx = ceilSearch(arr, tar);
 console.log(idx);
